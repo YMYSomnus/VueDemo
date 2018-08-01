@@ -2,9 +2,8 @@
   <div>
     <h1>slot-module</h1>
     <slot-module>
-      <template slot="header" slot-scope="{ scop }">
-        rrr
-        <p>{{todo}}</p>
+      <template slot="header" slot-scope="{ testDa }">
+        <p>{{testDa}}</p>
         <input  style="background-color: blue;" placeholder="gggggg">
       </template>
       <div>
@@ -26,6 +25,8 @@ export default {
   },
   components: {
     slotModule
+  },
+  created() {
   }
 }
 </script>
@@ -34,6 +35,5 @@ export default {
 <style scoped>
 h1, h2 {
   font-weight: normal;
-  
 }
 </style>
