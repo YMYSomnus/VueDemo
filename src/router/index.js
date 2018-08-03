@@ -5,13 +5,15 @@ import Content from "./content"
 import Directive from "./directive"
 import VModel from "./v-model";
 import SlotModule from "./slotModule";
+import KeepAlive from "./keepAlive";
 
 const route = [
   ...Start, 
   ...Content,
   ...Directive,
   ...VModel,
-  ...SlotModule]
+  ...SlotModule,
+  ...KeepAlive]
   
 Vue.use(Router)
 export default new Router({
