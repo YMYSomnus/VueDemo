@@ -3,6 +3,7 @@
     <h1>keep-alive</h1>
     <input placeholder="填写姓名">
     <button @click="push">跳转</button>
+    <vue-install></vue-install>
   </div>
 </template>
 
